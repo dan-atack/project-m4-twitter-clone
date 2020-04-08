@@ -83,6 +83,7 @@ const denormalizeTweet = tweet => {
   delete tweetCopy.likedBy;
   delete tweetCopy.retweetedBy;
 
+  console.log(tweet.likedBy);
   tweetCopy.isLiked = tweet.likedBy.includes(CURRENT_USER_HANDLE);
   tweetCopy.isRetweeted = tweet.retweetedBy.includes(CURRENT_USER_HANDLE);
   tweetCopy.numLikes = tweet.likedBy.length;
