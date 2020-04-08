@@ -181,7 +181,6 @@ Example:
   }
 }
 ```
-
 Some things worth highlighting:
 
 - `status` is the text content of the tweet (what the person said)
